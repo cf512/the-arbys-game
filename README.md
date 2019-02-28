@@ -1,7 +1,5 @@
 ### File
 
-* [`prompt-sushi`](Unsolved/prompt-sushi.html)
-
 ### Instructions
 
 * Write JavaScript code that does the following:
