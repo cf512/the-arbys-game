@@ -1,5 +1,3 @@
-### File
-
 ### Instructions
 
 * Write JavaScript code that does the following:
