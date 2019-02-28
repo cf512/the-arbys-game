@@ -10,26 +10,45 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <title>The Arby's Game</title>
   </head>
-  <body>
 
-    <script type="text/javascript">
+<body>
 
-  // * Write code here!
-  // * Using a confirm, ask the user, "Do you like \_?" Store their response in a variable.
-  // * Using a prompt, ask the user, "What kind of \_ do you like?" Store their response in a variable.
-  // * Alert both variables to the screen.
+<div class="container">
 
-      var like = confirm("Do you like Arby's?");
+  <div class="jumbotron">
+      <div class="jumbotron">
+          <img style="margin: auto;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH4V6q_MsYOOoAgWilM5jPcZmoPY758OAa45aGfXf5waznaBGJ" alt="an Arby's sandwich">
+          <h1 class="display-4">Welcome to the Arby's game!</h1>
+          <p class="lead">This is a goofy, 10-second game.</p>
+          <hr class="my-4">
+          <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+          <a class="btn btn-primary btn-lg" href="#" onClick="game()" role="button">Play Now</a>
+        </div>
+  </div>
 
-      if (like == true) {
-        alert("Yes, you like Arby's!");
-        var kind = prompt("What kind of Arby's do you like?");
-        alert("You like " + kind + " from Arby's! Thanks for playing!");
-      }
-      else {
-        alert("Me neither!");
-      }
-    </script>
+  <script type="text/javascript">
+
+    // * Write code here!
+    // * Using a confirm, ask the user, "Do you like \_?" Store their response in a variable.
+    // * Using a prompt, ask the user, "What kind of \_ do you like?" Store their response in a variable.
+    // * Alert both variables to the screen.
+  
+    function game() {
+        var like = confirm("Do you like Arby's?");
+  
+        if (like == true) {
+          alert("Yes, you like Arby's!");
+          var kind = prompt("What kind of Arby's do you like?");
+          alert("You like " + kind + " from Arby's! Thanks for playing!");
+        }
+        else {
+          alert("Me neither!");
+        }
+    }
+      </script>
+
+</div>
+
 
   </body>
 </html>
